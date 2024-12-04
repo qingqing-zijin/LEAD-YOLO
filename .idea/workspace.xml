@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca5b4171-1b8e-4b75-9990-07eeee9d75fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Arial.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/HRSID.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/SSDD.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/pruned_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/rfa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/yolov5s+GhostNet.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/yolov5s+efficientNet.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/yolov5s+mobileNetV3.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/yolov5s+shuffleNetv2.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/yolov5s-FasterNet+RFCBAMConv.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/yolov5s-FasterNet.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/coco_to_yolo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/datasets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/json_to_yolo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/prune_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.zh-CN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/coco128.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/coco128.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/download_weights.sh" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/download_weights.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/get_coco.sh" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/get_coco.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/get_coco128.sh" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/get_coco128.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/get_imagenet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/get_imagenet.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/export.py" beforeDir="false" afterPath="$PROJECT_DIR$/export.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/segment/yolov5l-seg.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/segment/yolov5m-seg.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/segment/yolov5n-seg.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/segment/yolov5s-seg.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/segment/yolov5x-seg.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/yolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/yolo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/yolov5n.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/models/yolov5n.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/yolov5s.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/models/yolov5s.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segment/predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segment/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segment/tutorial.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segment/val.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/plots.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/plots.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/val.py" beforeDir="false" afterPath="$PROJECT_DIR$/val.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/data/SSDD.yaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2MH9cYoLsrr0IVBvu9lYJWjiEIj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.coco_to_yolo.executor": "Run",
+    "Python.detect.executor": "Run",
+    "Python.generate_anchors.executor": "Run",
+    "Python.plotMAP.executor": "Debug",
+    "Python.prune.executor": "Run",
+    "Python.split_dataset.executor": "Run",
+    "Python.train.executor": "Run",
+    "Python.val.executor": "Run",
+    "Python.yolov5_channel_pruning.executor": "Run",
+    "Python.yolov5_quantization_script.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/BaiduNetdiskWorkspace/postgraduate/pythonProject/LEAD-YOLO",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BaiduNetdiskWorkspace\postgraduate\pythonProject\yolov5\utils" />
+      <recent name="D:\BaiduNetdiskWorkspace\postgraduate\pythonProject\yolov5\models" />
+      <recent name="D:\BaiduNetdiskWorkspace\postgraduate\pythonProject\yolov5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BaiduNetdiskWorkspace\postgraduate\pythonProject\yolov5\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.detect">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="yolov5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (base)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="coco_to_yolo" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="yolov5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/coco_to_yolo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="detect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yolov5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (base)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate_anchors" type="PythonConfigurationType" factoryName="Python">
+      <module name="yolov5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/SSDD/generate_anchors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prune" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="yolov5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (base)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prune.py" />
+      <option name="PARAMETERS" value="python prune.py --percent 0.5 --weights D:\BaiduNetdiskWorkspace\postgraduate\小论文\实验数据\yolov5s\weights\best.pt --data data/SSDD.yaml --cfg models/yolov5s.yaml" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="split_dataset" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="yolov5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (base)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/split_dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="yolov5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (base)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="val" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="yolov5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (base)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/val.py" />
+      <option name="PARAMETERS" value="--task speed --batch 1 --weights D:\BaiduNetdiskWorkspace\postgraduate\小论文\实验数据\yolov5s\weights\best.pt" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="yolov5_channel_pruning" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="yolov5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (base)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yolov5_channel_pruning.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="yolov5_quantization_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yolov5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (base)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yolov5_quantization_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.coco_to_yolo" />
+      <item itemvalue="Python.generate_anchors" />
+      <item itemvalue="Python.prune" />
+      <item itemvalue="Python.split_dataset" />
+      <item itemvalue="Python.train" />
+      <item itemvalue="Python.val" />
+      <item itemvalue="Python.yolov5_channel_pruning" />
+      <item itemvalue="Python.detect" />
+      <item itemvalue="Python.yolov5_quantization_script" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.detect" />
+        <item itemvalue="Python.yolov5_quantization_script" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca5b4171-1b8e-4b75-9990-07eeee9d75fa" name="Default Changelist" comment="" />
+      <created>1677413720761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677413720761</updated>
+      <workItem from="1677413729453" duration="13000" />
+      <workItem from="1704683868516" duration="1660000" />
+      <workItem from="1706615403874" duration="16994000" />
+      <workItem from="1706864911190" duration="14600000" />
+      <workItem from="1707118642122" duration="56493000" />
+      <workItem from="1707439311584" duration="24784000" />
+      <workItem from="1707804203960" duration="15637000" />
+      <workItem from="1707983490900" duration="4143000" />
+      <workItem from="1708159564946" duration="3831000" />
+      <workItem from="1708214768064" duration="1388000" />
+      <workItem from="1708250602402" duration="2636000" />
+      <workItem from="1708508383398" duration="24543000" />
+      <workItem from="1708669500429" duration="18903000" />
+      <workItem from="1708912874127" duration="10786000" />
+      <workItem from="1709173291601" duration="3592000" />
+      <workItem from="1709466338839" duration="78000" />
+      <workItem from="1709519926640" duration="8692000" />
+      <workItem from="1709693853327" duration="5850000" />
+      <workItem from="1709881352782" duration="5677000" />
+      <workItem from="1709967814210" duration="6526000" />
+      <workItem from="1710252980078" duration="1446000" />
+      <workItem from="1710295158432" duration="1155000" />
+      <workItem from="1710311087238" duration="1084000" />
+      <workItem from="1710382136631" duration="2584000" />
+      <workItem from="1710593849917" duration="1439000" />
+      <workItem from="1710657597824" duration="4394000" />
+      <workItem from="1710749373322" duration="1240000" />
+      <workItem from="1710772818863" duration="3779000" />
+      <workItem from="1710815184871" duration="2067000" />
+      <workItem from="1710819337245" duration="2585000" />
+      <workItem from="1710829779820" duration="23034000" />
+      <workItem from="1710901126165" duration="18204000" />
+      <workItem from="1710943899191" duration="41515000" />
+      <workItem from="1711082982614" duration="28000" />
+      <workItem from="1711084204757" duration="34000" />
+      <workItem from="1711105847100" duration="2182000" />
+      <workItem from="1711332248543" duration="100000" />
+      <workItem from="1711454743541" duration="635000" />
+      <workItem from="1711522826413" duration="31000" />
+      <workItem from="1711890377002" duration="688000" />
+      <workItem from="1711963715915" duration="1282000" />
+      <workItem from="1712158562042" duration="4410000" />
+      <workItem from="1712581954393" duration="1123000" />
+      <workItem from="1714993622001" duration="4552000" />
+      <workItem from="1717244848217" duration="303000" />
+      <workItem from="1717245253657" duration="87000" />
+      <workItem from="1717245357438" duration="162000" />
+      <workItem from="1717245531945" duration="17000" />
+      <workItem from="1717512125717" duration="7405000" />
+      <workItem from="1717571105007" duration="2344000" />
+      <workItem from="1717588084795" duration="4358000" />
+      <workItem from="1719148613120" duration="11542000" />
+      <workItem from="1719284087019" duration="17785000" />
+      <workItem from="1719834965541" duration="2330000" />
+      <workItem from="1719838454158" duration="21006000" />
+      <workItem from="1719919443358" duration="11322000" />
+      <workItem from="1721747278271" duration="993000" />
+      <workItem from="1721915818910" duration="1342000" />
+      <workItem from="1722328159543" duration="873000" />
+      <workItem from="1724067320969" duration="94000" />
+      <workItem from="1724067436914" duration="270000" />
+      <workItem from="1724067726403" duration="3172000" />
+      <workItem from="1724241951411" duration="3902000" />
+      <workItem from="1725878042401" duration="3000" />
+      <workItem from="1733291278727" duration="1689000" />
+      <workItem from="1733293403976" duration="2055000" />
+      <workItem from="1733301617173" duration="3016000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/json_to_yolo.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../小论文/实验数据/plotMAP.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/val.py</url>
+          <line>174</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train.py</url>
+          <line>505</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train.py</url>
+          <line>649</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/yolov5$generate_anchors.coverage" NAME="generate_anchors Coverage Results" MODIFIED="1707466994926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/yolov5$split_dataset.coverage" NAME="split_dataset Coverage Results" MODIFIED="1710819444969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/yolov5$yolov5_channel_pruning.coverage" NAME="yolov5_channel_pruning Coverage Results" MODIFIED="1719922357623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/yolov5$val.coverage" NAME="val Coverage Results" MODIFIED="1719931164281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/yolov5$train.coverage" NAME="train Coverage Results" MODIFIED="1733293424719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/yolov5$yolov5_quantization_script.coverage" NAME="yolov5_quantization_script Coverage Results" MODIFIED="1719921930596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yolov5$prune.coverage" NAME="prune Coverage Results" MODIFIED="1719923575757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/LEAD_YOLO$detect.coverage" NAME="detect Coverage Results" MODIFIED="1733302175598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yolov5$coco_to_yolo.coverage" NAME="coco_to_yolo Coverage Results" MODIFIED="1707808294678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/yolov5$detect.coverage" NAME="detect Coverage Results" MODIFIED="1714997497357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

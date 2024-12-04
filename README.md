@@ -110,7 +110,7 @@ This Quick Start Guide provides a simplified overview tailored to the modificati
 
 ### Ablation Studies
 
-![output](.\README-LEADYOLO.assets\output.png)
+![output](.\README-LEADYOLO.assets\ablation studies.png)
 
 | Model       | Dataset  | FasterNet | RFCBAMConv | C3_CA | AP(%)       | Params(M)     | FPS            |
 | ----------- | -------- | --------- | ---------- | ----- | ----------- | ------------- | -------------- |

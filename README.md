@@ -97,7 +97,7 @@ This Quick Start Guide provides a simplified overview tailored to the modificati
 
 ### Backbone Comparsion
 
-![output](./README-LEADYOLO/backbone comparision.png)
+![output](./README-LEADYOLO/backbone_comparision.png)
 
 |   Backbone    |  P (%)   |  R (%)   |  F1 (%)  |  AP (%)  |   FPS    | Para (M) |
 | :-----------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -110,7 +110,7 @@ This Quick Start Guide provides a simplified overview tailored to the modificati
 
 ### Ablation Studies
 
-![output](./README-LEADYOLO/ablation studies.png)
+![output](./README-LEADYOLO/ablation_studies.png)
 
 | Model       | Dataset  | FasterNet | RFCBAMConv | C3_CA | AP(%)       | Params(M)     | FPS            |
 | ----------- | -------- | --------- | ---------- | ----- | ----------- | ------------- | -------------- |
@@ -131,7 +131,7 @@ This Quick Start Guide provides a simplified overview tailored to the modificati
 
 Detection methods Comparsion
 
-![output](./README-LEADYOLO/Detection methods.png)
+![output](./README-LEADYOLO/Detection_methods.png)
 
 |     Method     | **P(%)** | **R(%)** | **F1(%)** |  AP(%)   | Para (M) |
 | :------------: | :------: | :------: | :-------: | :------: | :------: |

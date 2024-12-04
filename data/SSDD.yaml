@@ -1,0 +1,11 @@
+path: ./data/SSDD # dataset root dir
+train: images/train
+val: images/test
+test: images/test
+
+# Classes
+nc: 1
+names: ['ship']
+
+
+

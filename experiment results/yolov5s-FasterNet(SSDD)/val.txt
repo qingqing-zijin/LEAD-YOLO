@@ -1,0 +1,13 @@
+/root/miniconda3/bin/conda run -p /root/miniconda3 --no-capture-output python /tmp/pycharm_project_33/val.py 
+val: data=data/SSDD.yaml, weights=runs/train/yolov5s-FasterNet2/weights/best.pt, batch_size=32, imgsz=640, conf_thres=0.001, iou_thres=0.6, max_det=300, task=val, device=, workers=8, single_cls=False, augment=False, verbose=False, save_txt=False, save_hybrid=False, save_conf=False, save_json=False, project=runs/val, name=yolov5s-FasterNet(SSDD), exist_ok=False, half=False, dnn=False
+YOLOv5 🚀 2023-2-15 Python-3.8.10 torch-2.0.0+cu118 CUDA:0 (NVIDIA GeForce RTX 3090, 24260MiB)
+
+Fusing layers... 
+YOLOv5s-FasterNet summary: 155 layers, 3049934 parameters, 0 gradients, 5.9 GFLOPs
+val: Scanning /tmp/pycharm_project_33/data/SSDD/labels/test.cache... 232 images,
+                 Class     Images  Instances          P          R      mAP50   
+                   all        232        546      0.975      0.924      0.979      0.696
+Speed: 0.2ms pre-process, 11.9ms inference, 5.5ms NMS per image at shape (32, 3, 640, 640)
+Results saved to runs/val/yolov5s-FasterNet(SSDD)4
+
+Process finished with exit code 0

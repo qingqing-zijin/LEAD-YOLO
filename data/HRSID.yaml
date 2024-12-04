@@ -1,0 +1,12 @@
+path: ./data/HRSID_JPG # dataset root dir
+train: images/train  # train images (relative to 'path') 118287 images
+val: images/val  # val images (relative to 'path') 5000 images
+test: images/val
+
+# Classes
+nc: 1
+names: ['ship']
+
+
+
+

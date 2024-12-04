@@ -1,0 +1,7 @@
+path: ./data/SAR-ship/
+train: images/train
+val: images/val
+test: images/val
+# Classes
+nc: 1
+names: ['ship']

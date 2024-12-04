@@ -46,6 +46,12 @@ from utils.metrics import ConfusionMatrix, ap_per_class, box_iou
 from utils.plots import output_to_target, plot_images, plot_val_study
 from utils.torch_utils import select_device, smart_inference_mode
 
+import psutil
+
+def print_memory_usage():
+    process = psutil.Process()
+    memory_use = process.memory_info().rss / (1024 * 1024)  # RSS memory in MB
+    print(f'Memory Usage: {memory_use:.2f} MB')
 
 def save_one_txt(predn, save_conf, shape, file):
     # Save one txt result
@@ -141,6 +147,7 @@ def run(
 
         # Load model
         model = DetectMultiBackend(weights, device=device, dnn=dnn, data=data, fp16=half)
+        print_memory_usage()  # 调用内存监控函数
         stride, pt, jit, engine = model.stride, model.pt, model.jit, model.engine
         imgsz = check_img_size(imgsz, s=stride)  # check image size
         half = model.fp16  # FP16 supported on limited backends with CUDA
@@ -181,6 +188,7 @@ def run(
                                        rect=rect,
                                        workers=workers,
                                        prefix=colorstr(f'{task}: '))[0]
+        print_memory_usage()  # 调用内存监控函数
 
     seen = 0
     confusion_matrix = ConfusionMatrix(nc=nc)
@@ -264,7 +272,7 @@ def run(
             callbacks.run('on_val_image_end', pred, predn, path, names, im[si])
 
         # Plot images
-        if plots and batch_i < 3:
+        if plots and batch_i < 5:
             plot_images(im, targets, paths, save_dir / f'val_batch{batch_i}_labels.jpg', names)  # labels
             plot_images(im, output_to_target(preds), paths, save_dir / f'val_batch{batch_i}_pred.jpg', names)  # pred
 
@@ -294,7 +302,8 @@ def run(
     if not training:
         shape = (batch_size, 3, imgsz, imgsz)
         LOGGER.info(f'Speed: %.1fms pre-process, %.1fms inference, %.1fms NMS per image at shape {shape}' % t)
-
+        FPS = 1000 / sum(t)
+        LOGGER.info(f'FPS:{round(FPS,3)}')
     # Plots
     if plots:
         confusion_matrix.plot(save_dir=save_dir, names=list(names.values()))
@@ -339,8 +348,8 @@ def run(
 
 def parse_opt():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data', type=str, default=ROOT / 'data/coco128.yaml', help='dataset.yaml path')
-    parser.add_argument('--weights', nargs='+', type=str, default=ROOT / 'yolov5s.pt', help='model path(s)')
+    parser.add_argument('--data', type=str, default=ROOT / 'data/SSDD.yaml', help='dataset.yaml path')
+    parser.add_argument('--weights', nargs='+', type=str, default=ROOT / 'runs/train/yolov5s-FasterNet+RFCBAMConv+C3_CA/weights/best.pt', help='model path(s)')
     parser.add_argument('--batch-size', type=int, default=32, help='batch size')
     parser.add_argument('--imgsz', '--img', '--img-size', type=int, default=640, help='inference size (pixels)')
     parser.add_argument('--conf-thres', type=float, default=0.001, help='confidence threshold')
@@ -357,7 +366,7 @@ def parse_opt():
     parser.add_argument('--save-conf', action='store_true', help='save confidences in --save-txt labels')
     parser.add_argument('--save-json', action='store_true', help='save a COCO-JSON results file')
     parser.add_argument('--project', default=ROOT / 'runs/val', help='save to project/name')
-    parser.add_argument('--name', default='exp', help='save to project/name')
+    parser.add_argument('--name', default='yolov5s+mobilenetv3(SSDD)', help='save to project/name')
     parser.add_argument('--exist-ok', action='store_true', help='existing project/name ok, do not increment')
     parser.add_argument('--half', action='store_true', help='use FP16 half-precision inference')
     parser.add_argument('--dnn', action='store_true', help='use OpenCV DNN for ONNX inference')
